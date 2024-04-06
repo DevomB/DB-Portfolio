@@ -1,1 +1,0 @@
-export const Resend_API_Key = 're_CrNwgESo_DGwjWNv7XVM76oETyX93FgdBre_CrNwgESo_DGwjWNv7XVM76oETyX93FgdB';
