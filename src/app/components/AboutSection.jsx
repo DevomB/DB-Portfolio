@@ -12,21 +12,22 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>JavaScript</li>
         <li>TypeScript</li>
-        <li>React</li>
+        <li>React &amp; React Native</li>
         <li>NextJS</li>
         <li>Python</li>
-        <li>C++</li>
-        <li>Git</li>
+        <li>C &amp; C++</li>
+        <li>Git &amp; Github</li>
       </ul>
     ),
   },
   {
-    title: "Education",
-    id: "education",
+    title: "Awards",
+    id: "awards",
     content: (
       <ul className="list-disc pl-2">
         <li>Eastvale STEM Academy</li>
         <li>Byju&apos;s</li>
+        <li>HackerRank</li>
       </ul>
     ),
   },
@@ -76,11 +77,11 @@ const AboutSection = () => {
               Skills{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
+              selectTab={() => handleTabChange("awards")}
+              active={tab === "awards"}
             >
               {" "}
-              Education{" "}
+              Awards{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
