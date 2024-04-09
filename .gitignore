@@ -33,7 +33,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# API Key's 
-/src/app/api/send/APIKey.js
-
