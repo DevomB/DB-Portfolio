@@ -26,7 +26,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Eastvale STEM Academy</li>
-        <li>Byju's</li>
+        <li>Byju&apos;s</li>
       </ul>
     ),
   },
@@ -63,7 +63,7 @@ const AboutSection = () => {
             As a full stack web developer, I have a strong interest in building 
             dynamic and user-friendly websites. I have worked with REST APIs, 
             JavaScript, TypeScript, React, Node.js, and NextJS, HTML, CSS, 
-            C++, and Git. I pick things up quickly, and I'm constantly trying 
+            C++, and Git. I pick things up quickly, and I&apos;m constantly trying 
             to increase my knowledge and skill set. I enjoy working in a team 
             and am eager to collaborate with others to develop cutting-edge apps.
           </p>
