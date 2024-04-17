@@ -16,8 +16,10 @@ module.exports = {
     },
     colors: {
       ...colors,
-      primary: colors.blue,
-      secondary: colors.purple,
+      'blue-set': colors.blue, // Used to be Primary
+      'indigo-set' : colors.indigo,
+      'violet-set' : colors.violet,
+      'purple-set': colors.purple, // Used to be secondary
     },
   },
   plugins: [],
