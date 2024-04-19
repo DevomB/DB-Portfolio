@@ -19,7 +19,7 @@ module.exports = {
       'blue-set': colors.blue, // Used to be Primary
       'indigo-set' : colors.indigo,
       'violet-set' : colors.violet,
-      'purple-set': colors.purple, // Used to be secondary
+      'purple-set': colors.purple, // Used to be Secondary
     },
   },
   plugins: [],
