@@ -39,7 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Hello, and Welcome to My Journey. I'm thrilled to have you here.
+            Hello, and Welcome to My Journey. I&apos;m thrilled to have you here.
           </p>
           <div>
             <Link
