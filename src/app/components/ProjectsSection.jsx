@@ -9,10 +9,11 @@ const projectsData = [
     id: 1,
     title: "Impact Code Non-Profit",
     description: "A Robust Non-profit with Intent to Teach Programming",
-    image: "/images/projects/IC-Cover.png",
+    image: "/images/projects/IC.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Impactcodenp/Official-Website",
     previewUrl: "https://www.impactcode.org/",
+    fillColor: "#9ee37d"
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
+    fillColor: "#000"
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
+    fillColor: "#000"
   },
   {
     id: 4,
@@ -40,6 +43,7 @@ const projectsData = [
     tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
+    fillColor: "#000"
   },
   {
     id: 5,
@@ -49,6 +53,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
+    fillColor: "#000"
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
+    fillColor: "#000"
   },
 ];
 
@@ -117,6 +123,7 @@ const ProjectsSection = () => {
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
+              fillColor={project.fillColor}
             />
           </motion.li>
         ))}
