@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "Impact Code",
     description: "A Robust Non-profit Initiative to Teach Programming",
-    image: "/images/projects/IC-cover.png",
+    image: "/IC-cover.png",
     tag: ["All", "Companies"],
     gitUrl: "https://github.com/Impactcodenp/Official-Website",
     previewUrl: "https://www.impactcode.org/",
